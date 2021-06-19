@@ -1,0 +1,9 @@
+Please follow the below steps for installing the e-wallet application
+1. Create a python3 virtual environment
+2. After activating the environment,install the packages using requirements.txt file by, pip install -r requirements.txt
+3. Within the project directory, run the below steps in sequential format.
+    python manage.py createsuperuser for creating an admin user
+    python manage.py migrate
+    python manage.py runserver
+
+4. Open browser at 127.0.0.1:8000/admin for accessing the database via django-admin
