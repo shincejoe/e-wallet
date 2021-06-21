@@ -1,0 +1,79 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+.idea
+
+
+# spec extensions
+*.spec
+
+# Distribution / packaging
+bin/
+build/
+develop-eggs/
+dist/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+core/__pycache__/
+repositories/__pycache__/
+user_interface/__pycache__/
+user_interface/__pycache__/mainwindow.cpython-37.pyc
+post_test.py
+venv/
+
+opc_read/sample_json.json
+
+env/
+mca_api/media
+main.json
+demofile3.txt
+data_uploader/data_upload_manager/dummy_data_file.py
+core/utils/Test.py
+alert_app/test.py
+video_files/
+
+read_process/input_read.json
+write_process/output_write.json
+write_process/manual_output.json
+write_process/manual_app.py

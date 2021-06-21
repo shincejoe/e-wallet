@@ -63,7 +63,7 @@ class WalletWithdrawSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Account
-        fields = ['id', 'status', 'deposited_by', 'deposited_at', 'amount', 'reference_id']
+        fields = ['id', 'status', 'deposited_by', 'deposited_at', 'amount']
 
 
 class WalletDepositSerializer(serializers.ModelSerializer):
@@ -85,7 +85,7 @@ class WalletDepositSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Account
-        fields = ['id', 'status', 'deposited_by', 'deposited_at', 'amount', 'reference_id']
+        fields = ['id', 'status', 'deposited_by', 'deposited_at', 'amount']
 
 
 class WalletDisableSerializer(serializers.ModelSerializer):
